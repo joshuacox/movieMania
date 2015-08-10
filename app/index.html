@@ -50,7 +50,8 @@
 
     <div class="container">
       <div ng-controller="MainCtrl">
-        <h1>{{title}}</h1>
+        <h1>The title of this movie is: {{movie.title}}</h1>
+        <div ng-bind="movie.description"></div>
       </div>
     </div>
 
