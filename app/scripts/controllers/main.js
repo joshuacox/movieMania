@@ -8,6 +8,6 @@
  * Controller of the movieManiaApp
  */
 angular.module('movieManiaApp')
-  .controller('MainCtrl', function () {
-    this.title = 'Thank you for following along';
+  .controller('MainCtrl', function ($scope) {
+    $scope.title = 'Thank you for following along';
   });
